@@ -4,7 +4,7 @@
 
 > A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources.
 
-This list doesn't wants to replace [official website](https://plone.org/) or [documentation](https://docs.plone.org),
+This list doesn't wants to replace official website or documentation,
 but wants to be a quick and complete cheatsheet with a list of most used components and techniques by Plone integrators and developers.
 
 This list will cover only products that works with the latest major version of Plone (5).
