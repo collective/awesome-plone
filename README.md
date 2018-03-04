@@ -38,7 +38,7 @@ _Products and resources that helps developers and users to manage site layouts._
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
 
 * Views and utils
-  * [collective.slick](https://github.com/collective/collective.slick) - Add slick carousel to Plone resources.
+  * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
   * [redturtle.patterns.slider](https://github.com/RedTurtle/redturtle.patterns.slider) - A pattern based on Plone Mockup that enable a slick slider on a selected div.
   * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - adds a gallery view with a carousel made with slick.
 
