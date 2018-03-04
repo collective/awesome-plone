@@ -29,7 +29,7 @@ _Products and resources that helps developers and users to manage site layouts._
 
   * [plone.app.mosaic](https://github.com/plone/plone.app.mosaic) - Powerful editor that allows users to compose the content of a page with different blocks.
   * [redturtle.tiles.management](https://github.com/RedTurtle/redturtle.tiles.management) - A tiles management system, easier than plone.app.mosaic (doesn't allow to compose pages on a grid system). Useful for example for one-column pages.
-  * [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable dropdown menu
+  * [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable dropdown menu.
 
 * Tiles
 
@@ -58,9 +58,9 @@ _Plugins that add additional useful content-types._
 
 _A list of authentication plugins, to integrate Plone with external user sources._
 
-* [Products.PloneLDAP](https://github.com/collective/Products.PloneLDAP) - Connect Plone to LDAP/ActiveDirectory
-* [pas.plugins.authomatic](https://github.com/collective/pas.plugins.authomatic) - Authomatic OAuth1/OAuth2/OpenID Login Integration with Plone
-* [pas.plugins.velruse](https://github.com/RedTurtle/pas.plugins.velruse) - Allow users to login using social networks through Velruse
+* [Products.PloneLDAP](https://github.com/collective/Products.PloneLDAP) - Connect Plone to LDAP/ActiveDirectory.
+* [pas.plugins.authomatic](https://github.com/collective/pas.plugins.authomatic) - Authomatic OAuth1/OAuth2/OpenID Login Integration with Plone.
+* [pas.plugins.velruse](https://github.com/RedTurtle/pas.plugins.velruse) - Allow users to login using social networks through Velruse.
 
 ## Utilities
 
@@ -68,7 +68,7 @@ _Plugins that add some useful functionalities_
 
 * [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
-* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields
+* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
 
@@ -88,13 +88,13 @@ _A series of recipes/resources for running Plone and other services_
 
 _Because Plone has also a lot of good official resources where find infos_
 
-* [plone.org](https://plone.org/) - Official website
-* [community.plone.org](https://community.plone.org/) - Official community forum
-* [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators
-* [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api
-* [slack channel](https://plone.slack.com) - Official slack channel
-* [gitter channel](https://gitter.im/plone/home) - Official gitter channel
-* #plone irc channel
+* [plone.org](https://plone.org/) - Official website.
+* [community.plone.org](https://community.plone.org/) - Official community forum.
+* [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
+* [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
+* [slack channel](https://plone.slack.com) - Official slack channel.
+* [gitter channel](https://gitter.im/plone/home) - Official gitter channel.
+* #plone irc channel.
 
 ## License
 
