@@ -52,7 +52,7 @@ _Products and resources that helps developers and users to manage site layouts._
 
 _A set of themes developed by the community and ready-to-use._
 
-_...work in progress_
+* [plonetheme.barcelonetang](https://github.com/it-spirit/plonetheme.barcelonetang) - Customizable, advanced theme based on Barceloneta for Plone 5.
 
 ## Content-types
 
