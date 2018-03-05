@@ -90,7 +90,7 @@ _A series of recipes/resources for running Plone and other services_
 * [haproxy buildout](https://github.com/RedTurtle/deployments.buildout.haproxy) - An example of complete and customizable buildout for running an haproxy (load balancer) instance behind Plone.
 * [deployments.buildout.production](https://github.com/RedTurtle/deployments.buildout.production) - A buildout template that pulls in supervisor to manage different services like varnis, haproxy and Plone instances.
 
-## Themes
+## Articles
 
 _A list of articles or blogposts with interesting use-cases or informations._
 
