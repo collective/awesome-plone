@@ -5,12 +5,14 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Build Status](https://api.travis-ci.org/RedTurtle/awesome-plone.svg?branch=master)](https://travis-ci.org/RedTurtle/awesome-plone)
 
-> A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources.
+> A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources. From developers for developers.
 
-This list doesn't wants to replace official website or documentation,
-but wants to be a quick and complete cheatsheet with a list of most used components and techniques by Plone integrators and developers.
+If you want to know if there is already a package for Plone that fits your needs, searching it on github or pypi could be a real pain.
+There is a plenty of packages, but it's hard to understand which one could be a good solution or not.
 
-This list will cover only products that works with the latest major version of Plone (5).
+This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
+
+We will cover only products that works with the latest major version of Plone (5).
 
 ## Contents
 
@@ -20,6 +22,7 @@ This list will cover only products that works with the latest major version of P
 * [Authentication](#authentication)
 * [Utilities](#utilities)
 * [Sysadmin](#sysadmin)
+* [Articles](#articles)
 * [Official resources](#official-resources)
 
 ---
@@ -86,6 +89,13 @@ _A series of recipes/resources for running Plone and other services_
 * [varnish buildout](https://github.com/RedTurtle/deployments.buildout.varnish) - An example of complete and customizable buildout for running a Varnish (cache HTTP reverse proxy) instance behind Plone.
 * [haproxy buildout](https://github.com/RedTurtle/deployments.buildout.haproxy) - An example of complete and customizable buildout for running an haproxy (load balancer) instance behind Plone.
 * [deployments.buildout.production](https://github.com/RedTurtle/deployments.buildout.production) - A buildout template that pulls in supervisor to manage different services like varnis, haproxy and Plone instances.
+
+## Themes
+
+_A list of articles or blogposts with interesting use-cases or informations._
+
+* [Internationalization in Plone 3.3 and 4.0](https://maurits.vanrees.org/weblog/archive/2010/10/i18n-plone-4) - The bible of translations in Plone by Maurits van Rees.
+* [How to make your Plone add-on products uninstall cleanly](http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html) - A practical guide about Plone install and uninstall tools by Luca Fabbri.
 
 ## Official resources
 
