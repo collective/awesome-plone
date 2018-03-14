@@ -86,12 +86,17 @@ _Plugins that add some useful functionalities_
 
 * [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
+* [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
+* [collective.autoscaling](https://github.com/collective/collective.autoscaling)  – Automatic scaling of (too large) images in Plone sites
 * [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
-
-* [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
 * [collective.analyticspanel](https://github.com/RedTurtle/collective.analyticspanel/issues) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
+
+## Shop
+
+* [bda.plone.shop] - Shop add-on for plone that looks modern.
+
 
 ## Sysadmin
 
