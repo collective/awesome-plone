@@ -1,3 +1,4 @@
+
 <img style="float: right;" src="https://plone.org/logo.png">
 
 # Awesome Plone
@@ -34,31 +35,42 @@ _Products and resources that helps developers and users to manage site layouts._
 * Site/pages layout managers
 
   * [plone.app.mosaic](https://github.com/plone/plone.app.mosaic) - Powerful editor that allows users to compose the content of a page with different blocks.
+  *[collective.themeingfragments](https://github.com/collective/collective.themefragments) - with this add on and plone.app.mosaic you don't need to write diazo rules anymore
   * [redturtle.tiles.management](https://github.com/RedTurtle/redturtle.tiles.management) - A tiles management system, easier than plone.app.mosaic (doesn't allow to compose pages on a grid system). Useful for example for one-column pages.
   * [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable dropdown menu.
+  * [webcouturier.dropdownmenu](https://github.com/collective/webcouturier.dropdownmenu) - Dropdown menus for Plone. Control panel for configuration.
 
 * Tiles
 
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
   * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the text portlet), with some additional configuration like the possibility to add custom css style classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
+  * collective.themeingfragments](https://github.com/collective/collective.themefragments)  fragmenttiel (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python. 
 
 * Views and utils
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
   * [redturtle.patterns.slider](https://github.com/RedTurtle/redturtle.patterns.slider) - A pattern based on Plone Mockup that enable a slick slider on a selected div.
   * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - adds a gallery view with a carousel made with slick.
+* pp.client-plone make proper PDFs from Plone.
 
 ## Themes
 
 _A set of themes developed by the community and ready-to-use._
 
 * [plonetheme.barcelonetang](https://github.com/it-spirit/plonetheme.barcelonetang) - Customizable, advanced theme based on Barceloneta for Plone 5.
+*[collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at https://www.youtube.com/watch?v=VV4Wv4Ly9AQ 
+
+
 
 ## Content-types
 
 _Plugins that add additional useful content-types._
 
 * [wildcard.media](https://github.com/collective/wildcard.media) - Provides audio and video content types and behaviors.
+
+## Behaviors (Add-on adding behaviors)
+* [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview,  control panel for adding shortcuts, and bling. https://www.youtube.com/watch?v=iriCUaMsNsI
+* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel . You find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
 
 ## Authentication
 
