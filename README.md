@@ -104,7 +104,7 @@ _A series of recipes/resources for running Plone and other services_
 * [plone buildout](https://github.com/RedTurtle/deployments.buildout.plone) - An example of complete buildout for running Plone with different profiles for development, staging and production.
 * [varnish buildout](https://github.com/RedTurtle/deployments.buildout.varnish) - An example of complete and customizable buildout for running a Varnish (cache HTTP reverse proxy) instance behind Plone.
 * [haproxy buildout](https://github.com/RedTurtle/deployments.buildout.haproxy) - An example of complete and customizable buildout for running an haproxy (load balancer) instance behind Plone.
-* [deployments.buildout.production](https://github.com/RedTurtle/deployments.buildout.production) - A buildout template that pulls in supervisor to manage different services like varnis, haproxy and Plone instances.
+* [deployments.buildout.production](https://github.com/RedTurtle/deployments.buildout.production) - A buildout template that pulls in supervisor to manage different services like varnish, haproxy and Plone instances.
 
 ## Articles
 
