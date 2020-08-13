@@ -90,7 +90,7 @@ _Plugins that add some useful functionalities_
 * [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
-* [collective.analyticspanel](https://github.com/RedTurtle/collective.analyticspanel/issues) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
+* [collective.analyticspanel](https://github.com/collective/collective.analyticspanel/issues ) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
 
 ## Shop
 
@@ -111,7 +111,7 @@ _A series of recipes/resources for running Plone and other services_
 _A list of articles or blogposts with interesting use-cases or information._
 
 * [Internationalization in Plone 3.3 and 4.0](https://maurits.vanrees.org/weblog/archive/2010/10/i18n-plone-4) - The bible of translations in Plone by Maurits van Rees.
-* [How to make your Plone add-on products uninstall cleanly](http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html) - A practical guide about Plone install and uninstall tools by Luca Fabbri.
+* [How to make your Plone add-on products uninstall cleanly](https://lucafbb.blogspot.com/2013/05/how-to-make-your-plone-add-on-products.html) - A practical guide about Plone install and uninstall tools by Luca Fabbri.
 
 ## Official resources
 
