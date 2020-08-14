@@ -73,7 +73,7 @@ _Plugins that add additional useful content-types._
 ## Behaviors
 * [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview, control panel for adding shortcuts, and bling. [Demo](https://www.youtube.com/watch?v=iriCUaMsNsI)
 <!--lint ignore double-link-->
-* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at [Demo](https://www.youtube.com/watch?v=DTzjccZG454)
+* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) - Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at [Demo](https://www.youtube.com/watch?v=DTzjccZG454)
 
 ## Authentication
 
@@ -90,7 +90,7 @@ _Plugins that add some useful functionalities_
 * [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone - comes with Plone 5.2 by default.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
 * [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
-* [collective.autoscaling](https://github.com/collective/collective.autoscaling)  – Automatic scaling of (too large) images in Plone sites
+* [collective.autoscaling](https://github.com/collective/collective.autoscaling) - Automatic scaling of (too large) images in Plone sites
 * [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
