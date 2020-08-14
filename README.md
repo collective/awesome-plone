@@ -8,7 +8,7 @@
 
 > A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources. From developers for developers.
 
-If you want to know if there is already a package for Plone that fits your needs, searching for it on github or pypi could be a real pain.
+If you want to know if there is already a package for Plone that fits your needs, searching for it on GitHub or pypi could be a real pain.
 There are plenty of packages, but it's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
@@ -44,7 +44,7 @@ _Products and resources that help developers and users to manage site layouts._
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
   * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python. 
+  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python.
 
 * Views and utils
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
@@ -57,7 +57,7 @@ _Products and resources that help developers and users to manage site layouts._
 _A set of themes developed by the community and ready-to-use._
 
 * [plonetheme.barcelonetang](https://github.com/it-spirit/plonetheme.barcelonetang) - Customizable, advanced theme based on Barceloneta for Plone 5.
-* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at https://www.youtube.com/watch?v=VV4Wv4Ly9AQ 
+* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at https://www.youtube.com/watch?v=VV4Wv4Ly9AQ
 
 
 
