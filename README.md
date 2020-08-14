@@ -46,7 +46,7 @@ _Products and resources that help developers and users to manage site layouts._
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
   * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python.
+  * [collective.themefragments](https://github.com/collective/collective.themefragments) - Fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python.
 
 * Views and utils
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
