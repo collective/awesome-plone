@@ -20,8 +20,10 @@ We will cover only products that work with the latest major version of Plone (5)
 * [Layout](#layout)
 * [Themes](#themes)
 * [Content-types](#content-types)
+* [Behaviors](#behaviors)
 * [Authentication](#authentication)
 * [Utilities](#utilities)
+* [Shop](#shop)
 * [Sysadmin](#sysadmin)
 * [Articles](#articles)
 * [Official resources](#official-resources)
@@ -67,7 +69,7 @@ _Plugins that add additional useful content-types._
 
 * [wildcard.media](https://github.com/collective/wildcard.media) - Provides audio and video content types and behaviors.
 
-## Behaviors (Add-on adding behaviors)
+## Behaviors
 * [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview,  control panel for adding shortcuts, and bling. https://www.youtube.com/watch?v=iriCUaMsNsI
 * [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
 
