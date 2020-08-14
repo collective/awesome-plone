@@ -91,7 +91,7 @@ _Plugins that add some useful functionalities_
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
 * [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
 * [collective.autoscaling](https://github.com/collective/collective.autoscaling) - Automatic scaling of (too large) images in Plone sites.
-* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
+* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - Outputfilter that adds mimetype icon and filesize to files/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
 * [collective.analyticspanel](https://github.com/collective/collective.analyticspanel/issues ) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
@@ -128,9 +128,9 @@ _Because Plone also has a lot of good official info resources_
 * [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
 * [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
 * [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
-* [official Gitter chat](https://gitter.im/plone/public) - monitored.
-* [unofficial Slack workspace](https://plone.slack.com) - unmonitored.
-* [legacy IRC #plone](https://webchat.freenode.net) - not recommended for newcomers.
+* [official Gitter chat](https://gitter.im/plone/public) - Monitored.
+* [unofficial Slack workspace](https://plone.slack.com) - Unmonitored.
+* [legacy IRC #plone](https://webchat.freenode.net) - Not recommended for newcomers.
 
 ## License
 
