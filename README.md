@@ -96,7 +96,7 @@ _Plugins that add some useful functionalities_
 
 ## Shop
 
-* [bda.plone.shop] - Shop add-on for plone that looks modern.
+* [bda.plone.shop](https://github.com/bluedynamics/bda.plone.shop) - Shop add-on for plone that looks modern.
 
 
 ## Sysadmin
