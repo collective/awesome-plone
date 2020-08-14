@@ -8,12 +8,12 @@
 
 > A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources. From developers for developers.
 
-If you want to know if there is already a package for Plone that fits your needs, searching it on github or pypi could be a real pain.
-There is a plenty of packages, but it's hard to understand which one could be a good solution or not.
+If you want to know if there is already a package for Plone that fits your needs, searching for it on github or pypi could be a real pain.
+There are plenty of packages, but it's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
 
-We will cover only products that works with the latest major version of Plone (5).
+We will cover only products that work with the latest major version of Plone (5).
 
 ## Contents
 
@@ -30,7 +30,7 @@ We will cover only products that works with the latest major version of Plone (5
 
 ## Layout
 
-_Products and resources that helps developers and users to manage site layouts._
+_Products and resources that help developers and users to manage site layouts._
 
 * Site/pages layout managers
 
@@ -42,9 +42,9 @@ _Products and resources that helps developers and users to manage site layouts._
 * Tiles
 
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
-  * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the text portlet), with some additional configuration like the possibility to add custom css style classes.
+  * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragmenttiel (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python. 
+  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python. 
 
 * Views and utils
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
@@ -69,7 +69,7 @@ _Plugins that add additional useful content-types._
 
 ## Behaviors (Add-on adding behaviors)
 * [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview,  control panel for adding shortcuts, and bling. https://www.youtube.com/watch?v=iriCUaMsNsI
-* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel . You find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
+* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
 
 ## Authentication
 
@@ -83,14 +83,14 @@ _A list of authentication plugins, to integrate Plone with external user sources
 
 _Plugins that add some useful functionalities_
 
-* [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone.
+* [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone - comes with Plone 5.2 by default.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
 * [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
 * [collective.autoscaling](https://github.com/collective/collective.autoscaling)  – Automatic scaling of (too large) images in Plone sites
 * [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
-* [collective.analyticspanel](https://github.com/RedTurtle/collective.analyticspanel/issues) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
+* [collective.analyticspanel](https://github.com/collective/collective.analyticspanel/issues ) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
 
 ## Shop
 
@@ -108,14 +108,14 @@ _A series of recipes/resources for running Plone and other services_
 
 ## Articles
 
-_A list of articles or blogposts with interesting use-cases or informations._
+_A list of articles or blogposts with interesting use-cases or information._
 
 * [Internationalization in Plone 3.3 and 4.0](https://maurits.vanrees.org/weblog/archive/2010/10/i18n-plone-4) - The bible of translations in Plone by Maurits van Rees.
-* [How to make your Plone add-on products uninstall cleanly](http://blog.keul.it/2013/05/how-to-make-your-plone-add-on-products.html) - A practical guide about Plone install and uninstall tools by Luca Fabbri.
+* [How to make your Plone add-on products uninstall cleanly](https://lucafbb.blogspot.com/2013/05/how-to-make-your-plone-add-on-products.html) - A practical guide about Plone install and uninstall tools by Luca Fabbri.
 
 ## Official resources
 
-_Because Plone has also a lot of good official resources where find infos_
+_Because Plone also has a lot of good official info resources_
 
 * [plone.com](https://plone.com/) - Official website for decision makers and evaluators.
 * [plone.org](https://plone.org/) - Official website for developers and community.
