@@ -59,7 +59,8 @@ _Products and resources that help developers and users to manage site layouts._
 _A set of themes developed by the community and ready-to-use._
 
 * [plonetheme.barcelonetang](https://github.com/it-spirit/plonetheme.barcelonetang) - Customizable, advanced theme based on Barceloneta for Plone 5.
-* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at https://www.youtube.com/watch?v=VV4Wv4Ly9AQ
+<!--lint ignore double-link-->
+* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at [Demo](https://www.youtube.com/watch?v=VV4Wv4Ly9AQ).
 
 
 
@@ -70,8 +71,9 @@ _Plugins that add additional useful content-types._
 * [wildcard.media](https://github.com/collective/wildcard.media) - Provides audio and video content types and behaviors.
 
 ## Behaviors
-* [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview,  control panel for adding shortcuts, and bling. https://www.youtube.com/watch?v=iriCUaMsNsI
-* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
+* [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview, control panel for adding shortcuts, and bling. [Demo](https://www.youtube.com/watch?v=iriCUaMsNsI)
+<!--lint ignore double-link-->
+* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at [Demo](https://www.youtube.com/watch?v=DTzjccZG454)
 
 ## Authentication
 
