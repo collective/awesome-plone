@@ -52,7 +52,7 @@ _Products and resources that help developers and users to manage site layouts._
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
   * [redturtle.patterns.slider](https://github.com/RedTurtle/redturtle.patterns.slider) - A pattern based on Plone Mockup that enable a slick slider on a selected div.
   * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - Adds a gallery view with a carousel made with slick.
-  * [pp.client-plone](https://pypi.org/project/pp.client-plone/) make proper PDFs from Plone.
+  * [pp.client-plone](https://pypi.org/project/pp.client-plone/) - Make proper PDFs from Plone.
 
 ## Themes
 
