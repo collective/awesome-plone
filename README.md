@@ -20,8 +20,8 @@ Contributions are welcome! Read the [contribution guidelines](contributing.md).
 ## Contents
 
 * [Layout](#layout)
-* [Themes](#themes)
-* [Content-types](#content-types)
+* [Content and Content Utilities](#content)
+* [Searching and Categorizing](#searching)
 * [Behaviors](#behaviors)
 * [Authentication](#authentication)
 * [Utilities](#utilities)
@@ -54,6 +54,46 @@ _Products and resources that help developers and users to manage site layouts._
 
 * Views and utils
   * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - Adds a gallery view with a carousel made with slick.
+
+
+## Content and Content Utilities
+
+_Add-ons that provide content-types or additional functionality for content_
+
+* [collective.a11ycheck](https://github.com/collective/collective.a11ycheck) - Reports accessibility issues to your site editors when a page is saved.
+* [collective.bbcodesnippets](https://github.com/collective/collective.bbcodesnippets) - Provides generic and extensible BBCode markup integration for Plone.
+* [collective.behavior.seo](https://github.com/collective/collective.behavior.seo) - Adds extra fields used for SEO optimisation.
+* [collective.consent](https://github.com/collective/collective.consent) - Ask users for consent to different topics, before they can continue.
+* [collective.dexteritytextindexer](https://github.com/collective/collective.dexteritytextindexer) - Dynamic SearchableText index for dexterity content types. For Plone 6 this was merged into Plone core.
+* [collective.documentgenerator](https://github.com/collective/collective.documentgenerator) - Desktop document generation (.odt, .pdf, .doc, ...) based on appy framework (http://appyframework.org) and OpenOffice/LibreOffice.
+* [collective.documentviewer](https://github.com/collective/collective.documentviewer) - Very nice document viewer that integrates DocumentCloud viewer and PDF processing into Plone.
+* [collective.easyformplugin.createdx](https://github.com/collective/collective.easyformplugin.createdx) - Creates Plone content objects from EasyForm submissions.
+* [collective.geolocationbehavior](https://github.com/collective/collective.geolocationbehavior) - Geotagging for Plone content using LeafletJS.
+* [collective.glossary](https://github.com/collective/collective.glossary) - Content type to define a glossary and its terms.
+* [collective.immediatecreate](https://github.com/collective/collective.immediatecreate) - Create content immediatly and skip the add form.
+* [collective.lineage](https://github.com/collective/collective.lineage) - Subsites: Turns subfolders of a Plone site to appear as autonomous Plone sites. There is also a whole ecosystem off addons specific to subsites.
+* [collective.mailchimp](https://github.com/collective/collective.mailchimp) - MailChimp newsletter integration for Plone.
+* [collective.mirror](https://github.com/collective/collective.mirror) - A content type that mirrors the content of any other container.
+* [collective.mustread](https://github.com/collective/collective.mustread) - Tracking user views on content that are marked as must-read.
+* [collective.remoteproxy](https://github.com/collective/collective.remoteproxy) - Proxy for remote content. All remote URLs for which a local proxy was created are replaced in the resulting content.
+* [collective.richdescription](https://github.com/collective/collective.richdescription) - Formatable description field for Plone.
+* [collective.workspace](https://github.com/collective/collective.workspace) - Easily manage 'membership' in specific areas of a Plone Site. It allows to grant people access to areas of content using a membership group rather than local roles for each user, and to delegate control over that group to people who don't have access to the site-wide user/group control panel.
+* [dexterity.membrane](https://github.com/collective/dexterity.membrane) - Dnables content to be used as users and groups in Plone sites.
+* [plone.pdfexport](https://github.com/plone/plone.pdfexport) - Generic PDF export functionality for Plone content.
+* [Products.EasyNewsletter](https://github.com/collective/Products.EasyNewsletter) - Powerful newsletter/mailing product for Plone.
+
+## Searching and Categorizing
+
+* [cioppino.twothumbs](https://github.com/collective/cioppino.twothumbs) - Rate content using up- and down-thumbs.
+* [collective.bookmarks](https://github.com/collective/collective.bookmarks) - Bookmarks/ favorites/ wish-list for Plone.
+* [collective.collectionfilter](https://github.com/collective/collective.collectionfilter) - Faceted navigation filter for collection or contentlisting tiles.
+* [collective.elastic.plone](https://github.com/collective/collective.elastic.plone) - ElasticSearch Integration for Plone content.
+* [collective.searchandreplace](https://github.com/collective/collective.searchandreplace) - Find and replace text in Plone content objects.
+* [collective.solr](https://github.com/collective/collective.solr) - Solr search engine integration for Plone.
+* [collective.taxonomy](https://github.com/collective/collective.taxonomy) - Create, edit and use hierarchical taxonomies to categorize content.
+* [eea.facetednavigation](https://github.com/collective/eea.facetednavigation) - Very powerful interface to improve search without programming skills. Configuration is done through-the-web and lets you gradually select and explore different facets (metadata/properties) of the content and narrow down you search quickly and dynamically.
+* [Products.AdvancedQuery](https://pypi.org/project/Products.AdvancedQuery) - Extend the built-in search engine with some advanced features
+* [Products.PloneKeywordManager](https://github.com/collective/Products.PloneKeywordManager) - Change, merge and delete keywords/tags/subjects).
 
 
 ## Media
