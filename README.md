@@ -120,16 +120,13 @@ _A list of articles or blogposts with interesting use-cases or information._
 
 _Because Plone also has a lot of good official info resources_
 
-* [plone.com](https://plone.com/) - Official website for decision makers and evaluators.
 * [plone.org](https://plone.org/) - Official website for developers and community.
-* [Plone support](https://plone.org/support) - Where to find help.
 * [community.plone.org](https://community.plone.org/) - Official community forum, the best place to get help.
+* [Discord chat](https://discord.gg/zFY3EBbjaj) - Discord is the best way to chat with members of the Plone community.
+* [Plone support](https://plone.org/support) - Where to find help.
 * [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
 * [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
 * [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
-* [official Gitter chat](https://gitter.im/plone/public) - Monitored.
-* [unofficial Slack workspace](https://plone.slack.com) - Unmonitored.
-* [legacy IRC #plone](https://webchat.freenode.net) - Not recommended for newcomers.
 
 ## License
 
