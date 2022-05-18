@@ -1,19 +1,21 @@
+# Awesome Plone [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<img style="float: right;" src="https://plone.org/logo.png">
+[<img align="right" src="https://plone.org/logo.png">](https://plone.org)
 
-# Awesome Plone
+> A community-curated list of _awesome_ Plone addons, documentation, use-cases and other useful resources. From developers for developers.
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[Plone](https://plone.org) is a content management system with unsurpassed functionality and customizability out of the box.  The entire software stack for Plone is open source. Plone is governed by a non-profit foundation and a community of volunteers. Plone is unique among CMSes for the many high-end features it provides out-of-the-box.
 
-
-> A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources. From developers for developers.
-
-If you want to know if there is already a package for Plone that fits your needs, searching for it on GitHub or pypi could be a real pain.
+If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be a real pain.
 There are plenty of packages, but it's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
 
-We will cover only products that work with the latest major versions of Plone (currently 5.2 and 6) and only those that support Python 3.
+This list only covers add-ons and resources that work with the latest major versions of Plone (currently 5.2 and 6) and only those that support Python 3.
+
+## Contributing
+
+Contributions are welcome! Read the [contribution guidelines](contributing.md).
 
 ## Contents
 
