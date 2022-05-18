@@ -4,11 +4,10 @@
 # Awesome Plone
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Build Status](https://api.travis-ci.org/collective/awesome-plone.svg?branch=master)](https://travis-ci.org/collective/awesome-plone)
 
 > A community-curated list of awesome Plone addons, documentation, use-cases and other useful resources. From developers for developers.
 
-If you want to know if there is already a package for Plone that fits your needs, searching for it on github or pypi could be a real pain.
+If you want to know if there is already a package for Plone that fits your needs, searching for it on GitHub or pypi could be a real pain.
 There are plenty of packages, but it's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
@@ -20,8 +19,10 @@ We will cover only products that work with the latest major version of Plone (5)
 * [Layout](#layout)
 * [Themes](#themes)
 * [Content-types](#content-types)
+* [Behaviors](#behaviors)
 * [Authentication](#authentication)
 * [Utilities](#utilities)
+* [Shop](#shop)
 * [Sysadmin](#sysadmin)
 * [Articles](#articles)
 * [Official resources](#official-resources)
@@ -44,20 +45,21 @@ _Products and resources that help developers and users to manage site layouts._
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
   * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-  * [collective.themefragments](https://github.com/collective/collective.themefragments)  fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python. 
+  * [collective.themefragments](https://github.com/collective/collective.themefragments) - Fragment tile (you need to install it in the control panel, also): Add 'tiles' TTW by using familiar 'syntax', TAL, XML and python.
 
 * Views and utils
   * [collective.slick](https://github.com/RedTurtle/collective.slick) - Add slick carousel to Plone resources.
   * [redturtle.patterns.slider](https://github.com/RedTurtle/redturtle.patterns.slider) - A pattern based on Plone Mockup that enable a slick slider on a selected div.
-  * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - adds a gallery view with a carousel made with slick.
-  * [pp.client-plone](https://pypi.org/project/pp.client-plone/) make proper PDFs from Plone.
+  * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - Adds a gallery view with a carousel made with slick.
+  * [pp.client-plone](https://pypi.org/project/pp.client-plone/) - Make proper PDFs from Plone.
 
 ## Themes
 
 _A set of themes developed by the community and ready-to-use._
 
 * [plonetheme.barcelonetang](https://github.com/it-spirit/plonetheme.barcelonetang) - Customizable, advanced theme based on Barceloneta for Plone 5.
-* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at https://www.youtube.com/watch?v=VV4Wv4Ly9AQ 
+<!--lint ignore double-link-->
+* [collective.multitheme](https://github.com/collective/collective.multitheme) - A Very Customizable theme packed with fragment tiles. The only theme you need if you are not making your own. Control panel where you can choose between layouts (colors can also be change with LESS variables and rebuilding the CSS), option for 'full-size-view'.  The author could REALLY need some help to get this out of beta :) You find a very old demo at [Demo](https://www.youtube.com/watch?v=VV4Wv4Ly9AQ).
 
 
 
@@ -67,9 +69,10 @@ _Plugins that add additional useful content-types._
 
 * [wildcard.media](https://github.com/collective/wildcard.media) - Provides audio and video content types and behaviors.
 
-## Behaviors (Add-on adding behaviors)
-* [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview,  control panel for adding shortcuts, and bling. https://www.youtube.com/watch?v=iriCUaMsNsI
-* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at https://www.youtube.com/watch?v=DTzjccZG454
+## Behaviors
+* [medialog.markdown](https://github.com/espenmn/medialog.markdown) - A markdown editor with live preview, control panel for adding shortcuts, and bling. [Demo](https://www.youtube.com/watch?v=iriCUaMsNsI)
+<!--lint ignore double-link-->
+* [medialog.iconpicker](https://github.com/espenmn/medialog.iconpicker) - Add icons to Plone content. Note: Important: You choose between different icon fonts in the control panel. Find a very old demo at [Demo](https://www.youtube.com/watch?v=DTzjccZG454)
 
 ## Authentication
 
@@ -86,15 +89,15 @@ _Plugins that add some useful functionalities_
 * [plone.restapi](https://github.com/plone/plone.restapi) - RESTful hypermedia API for Plone - comes with Plone 5.2 by default.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
 * [collective.limitfilesizepanel](https://github.com/RedTurtle/collective.limitfilesizepanel/issues) - Configure the size limit of files and images fields through a control panel.
-* [collective.autoscaling](https://github.com/collective/collective.autoscaling)  – Automatic scaling of (too large) images in Plone sites
-* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - outputfilter that add mimetype icon and filesize to file/images linked in TinyMCE fields.
+* [collective.autoscaling](https://github.com/collective/collective.autoscaling) - Automatic scaling of (too large) images in Plone sites.
+* [collective.outputfilters.enhancelinks](https://github.com/PloneGov-IT/collective.outputfilters.enhancelinks) - Outputfilter that adds mimetype icon and filesize to files/images linked in TinyMCE fields.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
 * [collective.easyform](https://github.com/collective/collective.easyform) - TTW form builder based on Dexterity.
 * [collective.analyticspanel](https://github.com/collective/collective.analyticspanel/issues ) - Add more control over the inclusion of JavaScript analytics code of your Plone site with a configurable control panel.
 
 ## Shop
 
-* [bda.plone.shop] - Shop add-on for plone that looks modern.
+* [bda.plone.shop](https://github.com/bluedynamics/bda.plone.shop) - Shop add-on for plone that looks modern.
 
 
 ## Sysadmin
@@ -124,9 +127,9 @@ _Because Plone also has a lot of good official info resources_
 * [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
 * [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
 * [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
-* [official Gitter chat](https://gitter.im/plone/public) - monitored.
-* [unofficial Slack workspace](https://plone.slack.com) - unmonitored.
-* [legacy IRC #plone](https://webchat.freenode.net) - not recommended for newcomers.
+* [official Gitter chat](https://gitter.im/plone/public) - Monitored.
+* [unofficial Slack workspace](https://plone.slack.com) - Unmonitored.
+* [legacy IRC #plone](https://webchat.freenode.net) - Not recommended for newcomers.
 
 ## License
 
