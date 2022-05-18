@@ -12,7 +12,7 @@ There are plenty of packages, but it's hard to understand which one could be a g
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
 
-We will cover only products that work with the latest major version of Plone (5).
+We will cover only products that work with the latest major version of Plone (5.2 and 6) only those that support Python 3.
 
 ## Contents
 
