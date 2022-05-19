@@ -1,10 +1,12 @@
 # Awesome Plone [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<!--lint ignore double-link-->
 [<img align="right" src="https://plone.org/logo.png">](https://plone.org)
 
-> A community-curated list of _awesome_ Plone add-ons and other useful resources. From developers for developers.
+<!--lint ignore double-link-->
+> A community-curated list of _awesome_ [Plone](https://plone.org) add-ons and other useful resources. From developers for developers.
 
-[Plone](https://plone.org) is a open source content management system with unsurpassed functionality and customizability out of the box.
+Plone is a open source content management system with unsurpassed functionality and customizability out of the box.
 
 If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be a real pain.
 There are plenty of add-ons, but it's hard to understand which one could be a good solution or not.
@@ -13,16 +15,12 @@ This list is intended to fill that gap, and create a shared knowledge about comm
 
 This list only covers add-ons and resources that work with the latest major versions of Plone (currently 5.2 and 6) and only those that support Python 3.
 
-## Contributing
-
-Contributions are welcome! Read the [contribution guidelines](contributing.md).
-
 ## Contents
 
 * [Layout](#layout)
 * [Themes](#themes)
-* [Content, content extensions and utilities](#content)
-* [Searching and Categorizing](#searching)
+* [Content and utilities for content](#content-and-utilities-for-content)
+* [Searching and Categorizing](#searching-and-categorizing)
 * [Events](#events)
 * [Forms](#forms)
 * [Multilingual](#multilingual)
@@ -31,7 +29,7 @@ Contributions are welcome! Read the [contribution guidelines](contributing.md).
 * [SEO](#seo)
 * [Authentication](#authentication)
 * [Shop](#shop)
-* [Export, Import and Migrations](#exportimport)
+* [Export, Import and Migrations](#export-import-and-migrations)
 * [Develop](#develop)
 * [Sysadmin](#sysadmin)
 * [Official resources](#official-resources)
@@ -63,7 +61,7 @@ _Products and resources that help developers and users to manage site layouts._
 * [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable navigation menu for Plone.
 
 
-## Content, content extensions and utilities
+## Content and utilities for content
 
 _Add-ons that provide content-types or additional functionality for content_
 
@@ -71,7 +69,7 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.bbcodesnippets](https://github.com/collective/collective.bbcodesnippets) - Provides generic and extensible BBCode markup integration for Plone.
 * [collective.consent](https://github.com/collective/collective.consent) - Ask users for consent to different topics, before they can continue.
 * [collective.dexteritytextindexer](https://github.com/collective/collective.dexteritytextindexer) - Dynamic SearchableText index for dexterity content types. For Plone 6 this was merged into Plone core.
-* [collective.documentgenerator](https://github.com/collective/collective.documentgenerator) - Desktop document generation (.odt, .pdf, .doc, ...) based on appy framework (http://appyframework.org) and OpenOffice/LibreOffice.
+* [collective.documentgenerator](https://github.com/collective/collective.documentgenerator) - Generate Documents (.odt, .pdf, .doc) from content based on appy framework (http://appyframework.org) and OpenOffice/LibreOffice.
 * [collective.documentviewer](https://github.com/collective/collective.documentviewer) - Very nice document viewer that integrates DocumentCloud viewer and PDF processing into Plone.
 * [collective.easyformplugin.createdx](https://github.com/collective/collective.easyformplugin.createdx) - Creates Plone content objects from EasyForm submissions.
 * [collective.folderishtraverse](https://github.com/collective/collective.folderishtraverse) - Traverse to first item in folder.
@@ -90,7 +88,7 @@ _Add-ons that provide content-types or additional functionality for content_
 * [dexterity.membrane](https://github.com/collective/dexterity.membrane) - Dnables content to be used as users and groups in Plone sites.
 * [plone.pdfexport](https://github.com/plone/plone.pdfexport) - Generic PDF export functionality for Plone content.
 * [Products.EasyNewsletter](https://github.com/collective/Products.EasyNewsletter) - Powerful newsletter/mailing product for Plone.
-* [zopyx.ipsumplone](https://github.com/zopyx/zopyx.ipsumplone) - Creates demo content and demo images for Plone. sites
+* [zopyx.ipsumplone](https://github.com/zopyx/zopyx.ipsumplone) - Creates demo content and demo images for Plone.
 
 
 ## Searching and Categorizing
@@ -160,7 +158,7 @@ _Add-ons that handle image, video and audio content._
 
 _Add-ons for search engine optimization._
 
-* [bda.plone.gtm](https://github.com/bluedynamics/bda.plone.gtm) - Google Tag Manager Integration
+* [bda.plone.gtm](https://github.com/bluedynamics/bda.plone.gtm) - Google Tag Manager Integration.
 * [collective.behavior.seo](https://github.com/collective/collective.behavior.seo) - Adds extra fields used for SEO optimisation.
 
 
@@ -220,6 +218,7 @@ _Add-ons that help admins deploying and maintaining Plone_
 
 _Because Plone also has a lot of good official info resources_
 
+<!--lint ignore double-link-->
 * [plone.org](https://plone.org/) - Official website for developers and community.
 * [community.plone.org](https://community.plone.org/) - Official community forum, the best place to get help.
 * [Discord chat](https://discord.gg/zFY3EBbjaj) - Discord is the best way to chat with members of the Plone community.
@@ -227,3 +226,8 @@ _Because Plone also has a lot of good official info resources_
 * [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
 * [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
 * [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
+
+
+## Contributing
+
+Contributions are welcome! Read the [contribution guidelines](contributing.md).
