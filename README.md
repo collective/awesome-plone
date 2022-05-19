@@ -21,7 +21,6 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 ## Contents
 
 * [Layout](#layout)
-* [Themes](#themes)
 * [Content and utilities for content](#content-and-utilities-for-content)
 * [Searching and Categorizing](#searching-and-categorizing)
 * [Events](#events)
@@ -33,6 +32,7 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 * [Authentication](#authentication)
 * [Shop](#shop)
 * [Export, Import and Migrations](#export-import-and-migrations)
+* [Themes](#themes)
 * [Develop](#develop)
 * [Sysadmin](#sysadmin)
 * [Official resources](#official-resources)
@@ -49,19 +49,12 @@ _Products and resources that help developers and users to manage site layouts._
   * [collective.cover](https://github.com/collective/collective.cover) - Allows the creation of elaborate covers built around a drag-and-drop interface.
   * [collective.contentsections](https://github.com/collective/collective.contentsections) - This product offers a block approach for Plone 6 Classic based entirely on Dexterity content types.
 
-* Tiles - title are blocks of configurable content used by plone.app.mosaic.
+* Tiles - tiles are blocks of configurable content used by plone.app.mosaic.
 
-  * [collective.tiles.carousel](https://github.com/collective/collective.tiles.carousel) - A slider tile for plone.app.mosaic based on the carousel component of Bootstrap 5.
   * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
+  * [collective.tiles.carousel](https://github.com/collective/collective.tiles.carousel) - A slider tile for plone.app.mosaic based on the carousel component of Bootstrap 5.
   * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
   * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-
-## Themes
-
-* [plonetheme.tokyo](https://github.com/collective/plonetheme.tokyo) - Tokyo Theme for Plone implements Bootstrap 4 into Plone, with an emphasis on keeping things as close to "default" as possible.
-* [plonetheme.grueezibuesi](https://github.com/collective/plonetheme.grueezibuesi) - A kitten inspired theme for Plone 6.
-* [collective.sidebar](https://github.com/collective/collective.sidebar) - A sidebar that consolidates toolbar and navigation.
-* [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable navigation menu for Plone.
 
 
 ## Content and utilities for content
@@ -156,6 +149,7 @@ _Add-ons that handle image, video and audio content._
 * [collective.explicitacquisition](https://github.com/collective/collective.explicitacquisition) - Disallow access to acquired content outside the current path.
 * [collective.geotransform](https://github.com/collective/collective.geotransform) - Graceful E-mail Obfuscation for Plone.
 * iw.rejectanonymous
+* [collective.pwexpiry](https://github.com/collective/collective.pwexpiry) - Provideds methods for stronger user passwords in Plone and password attack protection.
 
 ## SEO
 
@@ -175,6 +169,7 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [iw.rejectanonymous](https://github.com/collective/iw.rejectanonymous) - Reject unconditionnally anonymous users from a Plone site, without any change in your security policy matrix or workflows. The basic use case is an extranet, where all visitors must be authenticated.
 * [pas.plugins.headers](https://github.com/collective/pas.plugins.headers) - Reads request headers and uses them for authentication. Think SAML headers that are set by a front web server like Apache or nginx.
 * [dm.zope.saml2](https://pypi.org/project/dm.zope.saml2/) - Supports SAML2 based Single Sign-On.
+* [collective.impersonate](https://github.com/collective/collective.impersonate) - Allow administrators to impersonate another user. Useful for verifying workflow/permission set up on real content.
 
 
 ## Shop
@@ -190,6 +185,14 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [collective.transmogrifier](https://github.com/mjpieters/collective.transmogrifier) - A configurable pipeline, aimed at transforming content for import and export.
 
 
+## Themes
+
+* [plonetheme.tokyo](https://github.com/collective/plonetheme.tokyo) - Tokyo Theme for Plone implements Bootstrap 4 into Plone, with an emphasis on keeping things as close to "default" as possible.
+* [plonetheme.grueezibuesi](https://github.com/collective/plonetheme.grueezibuesi) - A kitten inspired theme for Plone 6.
+* [collective.sidebar](https://github.com/collective/collective.sidebar) - A sidebar that consolidates toolbar and navigation.
+* [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable navigation menu for Plone.
+
+
 ## Develop
 
 _Add-ons that help developing Plone_
@@ -197,7 +200,6 @@ _Add-ons that help developing Plone_
 * [Products.PDBDebugMode](https://github.com/collective/Products.PDBDebugMode) - Post-mortem debugging: open a pdb session whenever an exception occurs so you you can find out what is going wrong. Plus: By adding /pdb to a url you end up you in a pdb session on the current context. A killer tool for developers.
 * [plone.reload](https://github.com/plone/plone.reload) - Code and configuration reload without server restarts.
 * [Products.PrintingMailHost](https://github.com/collective/Products.PrintingMailHost) - Log mail messages instead of sending mail.
-* [collective.impersonate](https://github.com/collective/collective.impersonate) - Allow administrators to impersonate another user. Useful for verifying workflow/permission set up on real content.
 * [experimental.gracefulblobmissing](https://github.com/collective/experimental.gracefulblobmissing/) - Gracefully handle missing binary files in Plone.
 * [collective.relationhelpers](https://github.com/collective/collective.relationhelpers) - Helpers to manage, create, export and rebuild relations in Plone 5.x. For Plone 6 this was merged into Plone core.
 
