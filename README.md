@@ -15,6 +15,9 @@ This list is intended to fill that gap, and create a shared knowledge about comm
 
 This list only covers add-ons and resources that work with the latest major versions of Plone (currently 5.2 and 6) and only those that support Python 3.
 
+Plone 6 comes with a new default frontend called Volto, which is written in React and uses plone.restapi to communicate with Plone. Volto is very extendable in itself. Checkout the [awesome-volto list](https://github.com/collective/awesome-volto) for add-ons to Volto.
+
+
 ## Contents
 
 * [Layout](#layout)
