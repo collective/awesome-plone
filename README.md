@@ -228,8 +228,9 @@ _Because Plone also has a lot of good official info resources_
 * [Discord chat](https://discord.gg/zFY3EBbjaj) - Discord is the best way to chat with members of the Plone community.
 * [Plone support](https://plone.org/support) - Where to find help.
 * [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
+* [Plone 6 Documentation](https://6.dev-docs.plone.org/) - Official documentation for the upcoming Plone 6 (work on progress).
 * [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
-* [plone.api](https://docs.plone.org/develop/plone.api/docs/index.html) - Documentation for plone.api.
+* [plone.api](https://6.dev-docs.plone.org/plone.api/index.html) - Documentation for plone.api.
 
 
 ## Contributing
