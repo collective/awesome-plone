@@ -3,9 +3,9 @@
 <!--lint ignore double-link-->
 [<img align="right" src="logo.png" height="64">](https://plone.org)
 
-<!--lint ignore double-link-->
 > A community-curated list of _awesome_ Plone add-ons. From developers for developers.
 
+<!--lint ignore double-link-->
 [Plone](https://plone.org) is a open source CMS written in Python with a focus on functionality, customizability and security out of the box.
 
 If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be a real pain.
