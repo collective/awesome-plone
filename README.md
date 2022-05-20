@@ -4,9 +4,9 @@
 [<img align="right" src="logo.png" height="64">](https://plone.org)
 
 <!--lint ignore double-link-->
-> A community-curated list of _awesome_ [Plone](https://plone.org) add-ons and other useful resources. From developers for developers.
+> A community-curated list of _awesome_ Plone add-ons. From developers for developers.
 
-Plone is a open source content management system with unsurpassed functionality and customizability out of the box.
+[Plone](https://plone.org) is a open source CMS written in Python with a focus on functionality, customizability and security out of the box.
 
 If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be a real pain.
 There are plenty of add-ons, but it's hard to understand which one could be a good solution or not.
@@ -20,9 +20,10 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 
 ## Contents
 
-* [Layout](#layout)
 * [Content and utilities for content](#content-and-utilities-for-content)
 * [Searching and Categorizing](#searching-and-categorizing)
+* [Layout](#layout)
+* [Tiles](#tiles)
 * [Events](#events)
 * [Forms](#forms)
 * [Multilingual](#multilingual)
@@ -38,24 +39,6 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 * [Official resources](#official-resources)
 
 ---
-
-## Layout
-
-_Products and resources that help developers and users to manage site layouts._
-
-* Site/Page layout managers
-
-  * [plone.app.mosaic](https://github.com/plone/plone.app.mosaic) - Powerful editor that allows users to compose the content of a page with different blocks.
-  * [collective.cover](https://github.com/collective/collective.cover) - Allows the creation of elaborate covers built around a drag-and-drop interface.
-  * [collective.contentsections](https://github.com/collective/collective.contentsections) - This product offers a block approach for Plone 6 Classic based entirely on Dexterity content types.
-
-* Tiles - tiles are blocks of configurable content used by plone.app.mosaic.
-
-  * [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
-  * [collective.tiles.carousel](https://github.com/collective/collective.tiles.carousel) - A slider tile for plone.app.mosaic based on the carousel component of Bootstrap 5.
-  * [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
-  * [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
-
 
 ## Content and utilities for content
 
@@ -98,6 +81,25 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.taxonomy](https://github.com/collective/collective.taxonomy) - Create, edit and use hierarchical taxonomies to categorize content.
 * [eea.facetednavigation](https://github.com/collective/eea.facetednavigation) - Very powerful interface to improve search without programming skills. Configuration is done through-the-web and lets you gradually select and explore different facets (metadata/properties) of the content and narrow down you search quickly and dynamically.
 * [Products.PloneKeywordManager](https://github.com/collective/Products.PloneKeywordManager) - Change, merge and delete keywords/tags/subjects).
+
+
+## Layout
+
+_Products and resources that help developers and users to create and manage site layouts._
+
+* [plone.app.mosaic](https://github.com/plone/plone.app.mosaic) - Powerful and extendable editor that allows users to compose the content of a page with different tiles.
+* [collective.cover](https://github.com/collective/collective.cover) - Cover allows the creation of elaborate covers built around a drag-and-drop interface. Uses the same blocks/tiles ecosystem as plone.app.mosaic but a different approach to editing.
+* [collective.contentsections](https://github.com/collective/collective.contentsections) - Offers a block approach for Plone 6 Classic based entirely on Dexterity content types.
+
+
+## Tiles
+
+_Add-ons that extend the layout editor plone.app.mosaic._
+
+* [plone.app.standardtiles](https://github.com/plone/plone.app.standardtiles) - A set of standard tiles used by Mosaic, but can be used from any other tile manager.
+* [collective.tiles.carousel](https://github.com/collective/collective.tiles.carousel) - A slider tile for plone.app.mosaic based on the carousel component of Bootstrap 5.
+* [collective.tiles.advancedstatic](https://github.com/collective/collective.tiles.advancedstatic) - A tile that shows html text (similar to the static text portlet), with some additional configuration like the possibility to add custom css classes.
+* [collective.tiles.collection](https://github.com/collective/collective.tiles.collection) - A tile that shows a set of collection results with possibility to choose (and develop) custom layouts.
 
 
 ## Events
