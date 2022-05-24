@@ -64,7 +64,7 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.restrictportlets](https://github.com/collective/collective.restrictportlets) - Allows you to restrict the available portlets that non-Managers can add.
 * [collective.richdescription](https://github.com/collective/collective.richdescription) - Formatable description field for Plone.
 * [collective.workspace](https://github.com/collective/collective.workspace) - Easily manage 'membership' in specific areas of a Plone Site. It allows to grant people access to areas of content using a membership group rather than local roles for each user, and to delegate control over that group to people who don't have access to the site-wide user/group control panel.
-* [dexterity.membrane](https://github.com/collective/dexterity.membrane) - Dnables content to be used as users and groups in Plone sites.
+* [dexterity.membrane](https://github.com/collective/dexterity.membrane) - Enables content to be used as users and groups in Plone sites.
 * [plone.pdfexport](https://github.com/plone/plone.pdfexport) - Generic PDF export functionality for Plone content.
 * [Products.EasyNewsletter](https://github.com/collective/Products.EasyNewsletter) - Powerful newsletter/mailing product for Plone.
 * [zopyx.ipsumplone](https://github.com/zopyx/zopyx.ipsumplone) - Creates demo content and demo images for Plone.
