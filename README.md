@@ -35,6 +35,7 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 * [Themes](#themes)
 * [Develop](#develop)
 * [Sysadmin](#sysadmin)
+* [Finding more add-ons](#finding-more-add-ons)
 * [Official resources](#official-resources)
 
 ---
