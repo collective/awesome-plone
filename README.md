@@ -83,6 +83,7 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.taxonomy](https://github.com/collective/collective.taxonomy) - Create, edit and use hierarchical taxonomies to categorize content.
 * [eea.facetednavigation](https://github.com/collective/eea.facetednavigation) - Very powerful interface to improve search without programming skills. Configuration is done through-the-web and lets you gradually select and explore different facets (metadata/properties) of the content and narrow down you search quickly and dynamically.
 * [Products.PloneKeywordManager](https://github.com/collective/Products.PloneKeywordManager) - Change, merge and delete keywords/tags/subjects).
+* [zopyx.typesense](https://github.com/zopyx/zopyx.typesense) - Plone integration with the external Typesense search server (open-source). This is an alternative to collective.solr or Elasticsearch.
 
 
 ## Layout
