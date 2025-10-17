@@ -180,7 +180,7 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [collective.impersonate](https://github.com/collective/collective.impersonate) - Allow administrators to impersonate another user. Useful for verifying workflow/permission set up on real content.
 * [collective.pwexpiry](https://github.com/collective/collective.pwexpiry) - Provideds methods for stronger user passwords in Plone and password attack protection.
 * [pas.plugins.oidc](https://github.com/collective/pas.plugins.oidc) - Login using OIDC providers.
-* [wcs.samlauth](https://github.com/collective/wcs.samlauth) - Logiun using SAML providers.
+* [wcs.samlauth](https://github.com/collective/wcs.samlauth) - Login using SAML providers.
 
 ## Shop
 
