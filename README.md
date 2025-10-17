@@ -177,6 +177,7 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [dm.zope.saml2](https://pypi.org/project/dm.zope.saml2/) - Supports SAML2 based Single Sign-On.
 * [collective.impersonate](https://github.com/collective/collective.impersonate) - Allow administrators to impersonate another user. Useful for verifying workflow/permission set up on real content.
 * [collective.pwexpiry](https://github.com/collective/collective.pwexpiry) - Provideds methods for stronger user passwords in Plone and password attack protection.
+* [pas.plugins.oidc](https://github.com/collective/pas.plugins.oidc) - PAS plugin for OpenID Connect authentication.
 
 
 ## Shop
