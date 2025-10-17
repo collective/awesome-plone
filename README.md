@@ -135,6 +135,7 @@ _Add-ons to help manage multilingual sites._
 
 * [collective.linguatags](https://github.com/collective/collective.linguatags) - Multilingual Tags for Plone.
 * [plone.app.multilingualindexes](https://github.com/plone/plone.app.multilingualindexes) - Indexes optimized to query multilingual content made with plone.app.multilingual.
+* [cs.adminlanguage](https://github.com/codesyntax/cs.adminlanguage) - Configure a language to be used when editing your Plone site, independent to the site language.
 
 
 ## Media
@@ -150,6 +151,7 @@ _Add-ons that handle image, video and audio content._
 * [plone.gallery](https://github.com/plone/plone.gallery) - Photo gallery view for Plone.
 * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - Adds a gallery view with a carousel made with slick.
 * [wildcard.media](https://github.com/collective/wildcard.media) - Provides audio and video content types and behaviors.
+* [cs_flickrgallery](https://github.com/codesyntax/cs_flickrgallery) - Flickr photo gallery support for Plone.
 
 
 ## Security
@@ -177,7 +179,8 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [dm.zope.saml2](https://pypi.org/project/dm.zope.saml2/) - Supports SAML2 based Single Sign-On.
 * [collective.impersonate](https://github.com/collective/collective.impersonate) - Allow administrators to impersonate another user. Useful for verifying workflow/permission set up on real content.
 * [collective.pwexpiry](https://github.com/collective/collective.pwexpiry) - Provideds methods for stronger user passwords in Plone and password attack protection.
-
+* [pas.plugins.oidc](https://github.com/collective/pas.plugins.oidc) - Login using OIDC providers.
+* [wcs.samlauth](https://github.com/collective/wcs.samlauth) - Logiun using SAML providers.
 
 ## Shop
 
