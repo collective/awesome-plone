@@ -8,6 +8,7 @@
 <!--lint ignore double-link-->
 [Plone](https://plone.org) is a open source CMS written in Python with a focus on functionality, customizability and security out of the box.
 
+<!--lint ignore double-link-->
 There are over 3000 add-ons for [Plone on PyPi](https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone) and over 1500 repositories in the [Collective](https://github.com/collective) organization on GitHub. If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be hard. It's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
@@ -237,6 +238,7 @@ _Add-ons that help admins deploying and maintaining Plone_
 Finding the right add-on for your needs can sometimes be challenging.
 Here are a few tips to help you:
 
+<!--lint ignore double-link-->
 * Start by making a list of the features you require.
 * Check this list first to see if any existing add-ons meet your needs.
 * Search for Plone add-ons on [PyPi](https://pypi.org/search/?c=Framework+%3A%3A+Plone).
@@ -255,6 +257,7 @@ Once you have a shortlist, test these add-ons. Here are the main issues you need
 
 Once you found an add-on you like, you can ask the community if you made a good choice or if you missed something:
 
+<!--lint ignore double-link-->
 * Message Board: [community.plone.org](https://community.plone.org)
 
 If you can't find something that fits your requirements 100% you can:
