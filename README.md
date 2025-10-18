@@ -8,7 +8,7 @@
 <!--lint ignore double-link-->
 [Plone](https://plone.org) is a open source CMS written in Python with a focus on functionality, customizability and security out of the box.
 
-There are over [3000 add-ons for Plone on pypi](https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone) and over 1500 repositories in the [collective](https://github.com/collective/). If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be hard. It's hard to understand which one could be a good solution or not.
+There are over 3000 add-ons for [Plone on PyPi](https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone) and over 1500 repositories in the [Collective](https://github.com/collective) organization on GitHub. If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be hard. It's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
 
@@ -78,8 +78,8 @@ _Add-ons that provide content-types or additional functionality for content_
 * [cioppino.twothumbs](https://github.com/collective/cioppino.twothumbs) - Rate content using up- and down-thumbs.
 * [collective.bookmarks](https://github.com/collective/collective.bookmarks) - Bookmarks/ favorites/ wish-list for Plone.
 * [collective.collectionfilter](https://github.com/collective/collective.collectionfilter) - Faceted navigation filter for collection or contentlisting tiles.
-* [collective.elasticsearch](https://github.com/collective/collective.elasticsearch) - Use ElasticSearch as the search backend for Plone.
-* [collective.elastic.plone](https://github.com/collective/collective.elastic.plone) - ElasticSearch Integration for Plone content.
+* [collective.elasticsearch](https://github.com/collective/collective.elasticsearch) - Use Elasticsearch as the search backend for Plone.
+* [collective.elastic.plone](https://github.com/collective/collective.elastic.plone) - Elasticsearch Integration for Plone content.
 * [collective.searchandreplace](https://github.com/collective/collective.searchandreplace) - Find and replace text in Plone content objects.
 * [collective.solr](https://github.com/collective/collective.solr) - Solr search engine integration for Plone.
 * [collective.taxonomy](https://github.com/collective/collective.taxonomy) - Create, edit and use hierarchical taxonomies to categorize content.
@@ -234,15 +234,15 @@ _Add-ons that help admins deploying and maintaining Plone_
 
 ## Finding more add-ons
 
-It can be hard to find the right add-on for your requirements.
-Here are some tips:
+Finding the right add-on for your needs can sometimes be challenging.
+Here are a few tips to help you:
 
-* Make a list of required features.
-* Look in this list first.
-* Search pypi: https://pypi.org/search/?c=Framework+%3A%3A+Plone
-* Search the collective organization on github: https://github.com/collective
-* Search the plone organization on github: https://github.com/plone
-* Google for your requirements
+* Start by making a list of the features you require.
+* Check this list first to see if any existing add-ons meet your needs.
+* Search for Plone add-ons on [PyPi](https://pypi.org/search/?c=Framework+%3A%3A+Plone).
+* Browse the [Collective](https://github.com/collective) organization on GitHub.
+* Browse the [Plone](https://github.com/plone) organization on GitHub.
+* Or simply Google for your requirements.
 
 Once you have a shortlist, test these add-ons. Here are the main issues you need to test before you install an add-on on a production site:
 
@@ -255,7 +255,7 @@ Once you have a shortlist, test these add-ons. Here are the main issues you need
 
 Once you found an add-on you like, you can ask the community if you made a good choice or if you missed something:
 
-* Message Board: https://community.plone.org
+* Message Board: [community.plone.org](https://community.plone.org)
 
 If you can't find something that fits your requirements 100% you can:
 
@@ -268,13 +268,13 @@ If you can't find something that fits your requirements 100% you can:
 _Because Plone also has a lot of good official info resources_
 
 <!--lint ignore double-link-->
-* [plone.org](https://plone.org/) - Official website for developers and community.
-* [community.plone.org](https://community.plone.org/) - Official community forum, the best place to get help.
+* [plone.org](https://plone.org) - Official website for developers and community.
+* [community.plone.org](https://community.plone.org) - Official community forum, the best place to get help.
 * [Discord chat](https://discord.gg/zFY3EBbjaj) - Discord is the best way to chat with members of the Plone community.
 * [Plone support](https://plone.org/support) - Where to find help.
-* [docs.plone.org](https://docs.plone.org/) - Official documentation for developers/integrators.
-* [Plone 6 Documentation](https://6.dev-docs.plone.org/) - Official documentation for the upcoming Plone 6 (work on progress).
-* [training.plone.org](https://training.plone.org/) - Training classes for developers/integrators/users/designers.
+* [docs.plone.org](https://docs.plone.org) - Official documentation for developers/integrators.
+* [Plone 6 Documentation](https://6.dev-docs.plone.org) - Official documentation for the upcoming Plone 6 (work on progress).
+* [training.plone.org](https://training.plone.org) - Training classes for developers/integrators/users/designers.
 * [plone.api](https://6.dev-docs.plone.org/plone.api/index.html) - Documentation for plone.api.
 
 
