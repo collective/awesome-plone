@@ -9,7 +9,7 @@
 [Plone](https://plone.org) is a open source CMS written in Python with a focus on functionality, customizability and security out of the box.
 
 <!--lint ignore double-link-->
-There are over 3000 add-ons for [Plone on PyPi](https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone) and over 1500 repositories in the [Collective](https://github.com/collective) organization on GitHub. If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or pypi can be hard. It's hard to understand which one could be a good solution or not.
+There are over 3000 add-ons for [Plone on PyPi](https://pypi.org/search/?q=&o=&c=Framework+%3A%3A+Plone) and over 1500 repositories in the [Collective](https://github.com/collective) organization on GitHub. If you want to know if there is already a add-on for Plone that fits your needs, searching for it on GitHub or PyPi can be hard. It's hard to understand which one could be a good solution or not.
 
 This list is intended to fill that gap, and create a shared knowledge about common products and techniques.
 
