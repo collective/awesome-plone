@@ -64,6 +64,7 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.mailchimp](https://github.com/collective/collective.mailchimp) - MailChimp newsletter integration for Plone.
 * [collective.mirror](https://github.com/collective/collective.mirror) - A content type that mirrors the content of any other container.
 * [collective.mustread](https://github.com/collective/collective.mustread) - Tracking user views on content that are marked as must-read.
+* [collective.person](https://github.com/collective/collective.person) - A content type to represent a person, with an optional behavior to connect it to a Plone user.
 * [collective.remoteproxy](https://github.com/collective/collective.remoteproxy) - Proxy for remote content. All remote URLs for which a local proxy was created are replaced in the resulting content.
 * [collective.restrictportlets](https://github.com/collective/collective.restrictportlets) - Allows you to restrict the available portlets that non-Managers can add.
 * [collective.richdescription](https://github.com/collective/collective.richdescription) - Formatable description field for Plone.
