@@ -23,6 +23,7 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 ## Contents
 
 * [Content and utilities for content](#content-and-utilities-for-content)
+* [Editing](#editing)
 * [Searching and Categorizing](#searching-and-categorizing)
 * [Layout](#layout)
 * [Tiles](#tiles)
@@ -47,8 +48,6 @@ Plone 6 comes with a new default frontend called Volto, which is written in Reac
 
 _Add-ons that provide content-types or additional functionality for content_
 
-* [collective.a11ycheck](https://github.com/collective/collective.a11ycheck) - Reports accessibility issues to your site editors when a page is saved.
-* [collective.bbcodesnippets](https://github.com/collective/collective.bbcodesnippets) - Provides generic and extensible BBCode markup integration for Plone.
 * [collective.consent](https://github.com/collective/collective.consent) - Ask users for consent to different topics, before they can continue.
 * [collective.dexteritytextindexer](https://github.com/collective/collective.dexteritytextindexer) - Dynamic SearchableText index for dexterity content types. For Plone 6 this was merged into Plone core.
 * [collective.documentgenerator](https://github.com/collective/collective.documentgenerator) - Generate Documents (.odt, .pdf, .doc) from content based on appy framework (https://appyframe.work/) and OpenOffice/LibreOffice.
@@ -65,14 +64,23 @@ _Add-ons that provide content-types or additional functionality for content_
 * [collective.mirror](https://github.com/collective/collective.mirror) - A content type that mirrors the content of any other container.
 * [collective.mustread](https://github.com/collective/collective.mustread) - Tracking user views on content that are marked as must-read.
 * [collective.person](https://github.com/collective/collective.person) - A content type to represent a person, with an optional behavior to connect it to a Plone user.
+* [collective.pdfjs](https://github.com/collective/collective.pdfjs) - Plone integration for Mozilla's JavaScript PDF reader.
 * [collective.remoteproxy](https://github.com/collective/collective.remoteproxy) - Proxy for remote content. All remote URLs for which a local proxy was created are replaced in the resulting content.
 * [collective.restrictportlets](https://github.com/collective/collective.restrictportlets) - Allows you to restrict the available portlets that non-Managers can add.
-* [collective.richdescription](https://github.com/collective/collective.richdescription) - Formatable description field for Plone.
 * [collective.workspace](https://github.com/collective/collective.workspace) - Easily manage 'membership' in specific areas of a Plone Site. It allows to grant people access to areas of content using a membership group rather than local roles for each user, and to delegate control over that group to people who don't have access to the site-wide user/group control panel.
 * [dexterity.membrane](https://github.com/collective/dexterity.membrane) - Enables content to be used as users and groups in Plone sites.
 * [plone.pdfexport](https://github.com/plone/plone.pdfexport) - Generic PDF export functionality for Plone content.
 * [Products.EasyNewsletter](https://github.com/collective/Products.EasyNewsletter) - Powerful newsletter/mailing product for Plone.
 * [zopyx.ipsumplone](https://github.com/zopyx/zopyx.ipsumplone) - Creates demo content and demo images for Plone.
+* [collective.folderorder](https://github.com/collective/collective.folderorder) - Allows alternative ordering on plone folders.
+
+
+## Editing
+
+* [collective.a11ycheck](https://github.com/collective/collective.a11ycheck) - Reports accessibility issues to your site editors when a page is saved.
+* [collective.collabora](https://github.com/collective/collective.collabora) - Collabora Online integration for Plone to provide collaborative document editing.
+* [collective.bbcodesnippets](https://github.com/collective/collective.bbcodesnippets) - Provides generic and extensible BBCode markup integration for Plone.
+* [collective.richdescription](https://github.com/collective/collective.richdescription) - Formatable description field for Plone.
 
 
 ## Searching and Categorizing
@@ -97,6 +105,7 @@ _Products and resources that help developers and users to create and manage site
 * [plone.app.mosaic](https://github.com/plone/plone.app.mosaic) - Powerful and extendable editor that allows users to compose the content of a page with different tiles.
 * [collective.cover](https://github.com/collective/collective.cover) - Cover allows the creation of elaborate covers built around a drag-and-drop interface. Uses the same blocks/tiles ecosystem as plone.app.mosaic but a different approach to editing.
 * [collective.contentsections](https://github.com/collective/collective.contentsections) - Offers a block approach for Plone 6 Classic based entirely on Dexterity content types.
+* [collective.gridlisting](https://github.com/collective/collective.gridlisting) - Adds a dexterity behavior and a browser template to manipulate folder and collection listings by adding Bootstrap 5 CSS classes and `pat-masonry` from patternslib. 
 
 
 ## Tiles
@@ -138,6 +147,7 @@ _Add-ons to help manage multilingual sites._
 * [collective.linguatags](https://github.com/collective/collective.linguatags) - Multilingual Tags for Plone.
 * [plone.app.multilingualindexes](https://github.com/plone/plone.app.multilingualindexes) - Indexes optimized to query multilingual content made with plone.app.multilingual.
 * [cs.adminlanguage](https://github.com/codesyntax/cs.adminlanguage) - Configure a language to be used when editing your Plone site, independent to the site language.
+* [collective.multilingual](https://github.com/collective/collective.multilingual/tree/fix-tests) - This add-on provides support for content in multiple languages (multilingual).
 
 
 ## Media
@@ -161,6 +171,8 @@ _Add-ons that handle image, video and audio content._
 * [collective.explicitacquisition](https://github.com/collective/collective.explicitacquisition) - Disallow access to acquired content outside the current path.
 * [collective.geotransform](https://github.com/collective/collective.geotransform) - Graceful E-mail Obfuscation for Plone.
 * [collective.contactformprotection](https://github.com/collective/collective.contactformprotection) - Disables the default `contact-info` form or protect it with `plone.formwidget.[h|re]captcha`.
+* [collective.lockdown](https://github.com/collective/collective.lockdown) - Protect Plone sites against site administrators from reconfiguring the site or making layout changes.
+
 
 ## SEO
 
@@ -170,6 +182,7 @@ _Add-ons for search engine optimization._
 * [collective.behavior.seo](https://github.com/collective/collective.behavior.seo) - Adds extra fields used for SEO optimisation.
 * [collective.splitsitemap](https://github.com/collective/collective.splitsitemap) - Provides a cached split sitemap on big public sites.
 * [kitconcept.seo](https://github.com/kitconcept/kitconcept.seo) - Adds extra fields used for SEO optimisation for sites using Volto.
+
 
 ## Authentication
 
@@ -186,6 +199,7 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 * [pas.plugins.oidc](https://github.com/collective/pas.plugins.oidc) - Login using OIDC providers.
 * [wcs.samlauth](https://github.com/collective/wcs.samlauth) - Login using SAML providers.
 
+
 ## Shop
 
 * [bda.plone.productshop](https://github.com/bluedynamics/bda.plone.productshop) - Flexible and modular e-commerce solution for Plone.
@@ -193,18 +207,19 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 
 ## Export, Import and Migrations
 
-* [collective.exportimport](https://github.com/collective/collective.exportimport/) - Export and import content and a lot of other data from and to Plone. The main solution for all kinds of migrations based on plone.restapi.
-* [collective.migrationhelpers](https://github.com/collective/collective.migrationhelpers/) - Helpers and examples to use during migrations.
+* [collective.exportimport](https://github.com/collective/collective.exportimport) - Export and import content and a lot of other data from and to Plone. The main solution for all kinds of migrations based on plone.restapi.
+* [collective.migrationhelpers](https://github.com/collective/collective.migrationhelpers) - Helpers and examples to use during migrations.
 * [collective.jsonify](https://github.com/collective/collective.jsonify) - Export Plone content to JSON.
 * [collective.transmogrifier](https://github.com/collective/collective.transmogrifier) - A configurable pipeline, aimed at transforming content for import and export.
 
 
 ## Themes
 
-* [plonetheme.tokyo](https://github.com/collective/plonetheme.tokyo) - Tokyo Theme for Plone implements Bootstrap 4 into Plone, with an emphasis on keeping things as close to "default" as possible.
+* [plonetheme.tokyo](https://github.com/collective/plonetheme.tokyo) - A alternative theme for Plone using Bootstrap 5.
 * [plonetheme.grueezibuesi](https://github.com/collective/plonetheme.grueezibuesi) - A kitten inspired theme for Plone 6.
 * [collective.sidebar](https://github.com/collective/collective.sidebar) - A sidebar that consolidates toolbar and navigation.
 * [collective.editablemenu](https://github.com/RedTurtle/collective.editablemenu) - A customizable navigation menu for Plone.
+* [collective.localstyles](https://github.com/collective/collective.localstyles) - Add local styles within any subsection of a Plone site by adding a css-file.
 
 
 ## Develop
@@ -216,7 +231,10 @@ _Add-ons that help developing Plone_
 * [plone.reload](https://github.com/plone/plone.reload) - Code and configuration reload without server restarts.
 * [Products.PrintingMailHost](https://github.com/collective/Products.PrintingMailHost) - Log mail messages instead of sending mail.
 * [experimental.gracefulblobmissing](https://github.com/collective/experimental.gracefulblobmissing/) - Gracefully handle missing binary files in Plone.
-* [collective.patchwatcher](https://github.com/collective/collective.patchwatcher) - A great companion for keeping track of patched or overridden files.
+* [collective.debugtools](https://github.com/collective/collective.debugtools) - Add remote debugging via debugpy for debugpy-compatible clients like VSCode or PyCharm.
+* [collective.icecream](https://github.com/collective/collective.icecream) - Debug and inspect Plone using the icecream package. 
+* [collective.patchwatcher](https://github.com/collective/collective.patchwatcher) - A companion for keeping track of patched or overridden files.
+* [collective.pdbpp](https://github.com/collective/collective.pdbpp) - Allows you to use the pdbpp package.
 * [collective.relationhelpers](https://github.com/collective/collective.relationhelpers) - Helpers to manage, create, export and rebuild relations in Plone 5.x. For Plone 6 this was merged into Plone core.
 
 
@@ -226,14 +244,17 @@ _Add-ons that help admins deploying and maintaining Plone_
 
 * [collective.catalogcleanup](https://github.com/collective/collective.catalogcleanup) - Removes data from the catalog that no longer belong to an actual object.
 * [collective.fingerpointing](https://github.com/collective/collective.fingerpointing) - Keeps track of different events and write them down to an audit log.
+* [collective.ftw.upgrade](https://github.com/collective/collective.ftw.upgrade) - Simplifies writing and running upgrade steps for Plone add-ons and projects.
 * [collective.ifttt](https://github.com/collective/collective.ifttt) - Enables any Plone site to play in the IFTTT ecosystem. For example when a news item is published, then tweet about it or post it on Facebook.
 * [collective.purgebyid](https://github.com/collective/collective.purgebyid) - Use tag-based cache invalidation in Plone (e.g. with Varnish's xkey module).
 * [collective.recipe.backup](https://github.com/collective/collective.recipe.backup) - Powerful and flexible backup/restore solution for Plone.
-* [collective.regenv](https://github.com/collective/collective.regenv) - Override registry settings using environment variables.
+* [collective.regenv](https://github.com/collective/collective.regenv) - Override registry settings using environment variables stored in a file.
+* [plone-registryfromenviron](https://github.com/bluedynamics/plone-registryfromenviron) - Override plone.registry settings from environment variables.
 * [collective.revisionmanager](https://github.com/collective/collective.revisionmanager) - Manage Products.CMFEditions histories that can bloat your database.
 * [collective.sentry](https://github.com/collective/collective.sentry) - Sentry integration to aggregate errors and help finding their causes.
 * [dm.historical](https://pypi.org/project/dm.historical) - Access any historical state of your database. Can be useful to find out what happened to objects in the past and to restore accidentally deleted or modified objects.
 * [haufe.requestmonitoring](https://github.com/collective/haufe.requestmonitoring) - Detailed request logging functionality on top of the publication events. Useful to find out what takes longer than it should.
+* [Cloudbrine](https://bluedynamics.github.io/zodb-pgjsonb/ecosystem.html) - A set of add-ons that replace the ZODB and the catalog with PostgreSQL and stores objects as queryable JSONB and can delegate image scaling to Thumbor.
 
 
 ## Finding more add-ons
