@@ -194,6 +194,7 @@ _A list of authentication plugins, to integrate Plone with external user , Impor
 ## Export, Import and Migrations
 
 * [collective.exportimport](https://github.com/collective/collective.exportimport/) - Export and import content and a lot of other data from and to Plone. The main solution for all kinds of migrations based on plone.restapi.
+* [collective.ftw.upgrade](https://github.com/collective/collective.ftw.upgrade) - Build and run upgrade steps for Plone add-ons and projects.
 * [collective.migrationhelpers](https://github.com/collective/collective.migrationhelpers/) - Helpers and examples to use during migrations.
 * [collective.jsonify](https://github.com/collective/collective.jsonify) - Export Plone content to JSON.
 * [collective.transmogrifier](https://github.com/collective/collective.transmogrifier) - A configurable pipeline, aimed at transforming content for import and export.
