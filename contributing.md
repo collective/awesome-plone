@@ -20,7 +20,7 @@ Thanks for contributing!
 
 If you have something awesome to contribute to an awesome list, this is how you do it step-by-step.
 
-You'll need a [GitHub account](https://github.com/join)!
+You'll need a [GitHub account](https://github.com/signup)!
 
 1. Access awesome-plones GitHub page. For example: https://github.com/collective/awesome-plone/
 2. Now click on the edit icon
