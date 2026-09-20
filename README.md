@@ -158,7 +158,7 @@ _Add-ons that handle image, video and audio content._
 * [collective.behavior.banner](https://github.com/collective/collective.behavior.banner) - A behavior to create banners and sliders from banners.
 * [collective.behavior.relatedmedia](https://github.com/collective/collective.behavior.relatedmedia) - A behavior to create/upload/manage media relations (Image, File) for content types.
 * [collective.lazysizes](https://github.com/collective/collective.lazysizes) - Integration of lazysizes, a lightweight lazy loader, into Plone.
-* [collective.wavesurfer](https://github.com/collective/collective.wavesurfer) - Implementation of https://wavesurfer-js.org audio player for Plone.
+* [collective.wavesurfer](https://github.com/collective/collective.wavesurfer) - Implementation of https://wavesurfer.xyz/ audio player for Plone.
 * [plone.app.imagecropping](https://github.com/collective/plone.app.imagecropping) - Crops Images in Plone manually using cropper JS library.
 * [plone.gallery](https://github.com/plone/plone.gallery) - Photo gallery view for Plone.
 * [redturtle.gallery](https://github.com/RedTurtle/redturtle.gallery) - Adds a gallery view with a carousel made with slick.
